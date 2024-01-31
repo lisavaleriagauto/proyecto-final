@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(36, 36, 82);
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: rgb(164, 204, 228);
+    text-align: center;
+    font-size: 55px; 
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: rgb(166, 206, 231);
+    text-align: center;
+    font-size: 17px;
+    margin-top: 0px;
+}
+
+h3 {
+    color:rgb(171, 214, 241);
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+h4 {
+    color: rgb(159, 206, 235);
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 58px;
+}
+
+h5 {
+    font-size: 24px;
+    margin-left: 30px;
+    margin-right: 15px;
+    color: rgb(159, 206, 235)
+}
+
+.cuadro {
+    width: 1300px;
+    border: 30px;
+    padding: 20px;
+    margin-left: 100px;
+    color:  rgb(174, 214, 239, 0.5);
+    background: linear-gradient(rgba(255, 255, 255, 0.5)), center/cover; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(57, 172, 249, 0.427);
+    align-self: center;
+}
+
+.descripcion li {
+    color: rgb(134, 180, 208);
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*NOSOTROS MAIN*/
+
+.mainGRID{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.bienvenido-a-aqua{
+    justify-self: center;
+    font-size: 33px;
+}
+
+.compromiso{
+    justify-self: center;
+    font-size: 29px;
+}
+
+.font{
+    font-weight: 600;
+}
+
+.margenINDEX {
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+.margenFooter {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.margenIG {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
+    margin-right: auto
+}
+
+.margenFB {
+    position: absolute;
+    margin-left: 1200px;
+    margin-right: auto;
+    width: 20px;
+    height: auto
+}
+
+.iframeMAPS {
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.uniformes {
+    margin-left: 41px;
+    font-size: 18px;
+}
+
+.fotos {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.navbar {
+    display: flex;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.navbar li {
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:rgb(173, 215, 241);
+}
+
+.form {
+    width: 400px;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+input {
+    background-color: rgb(214, 211, 211, 0.5);
+    width: 400px;
+    border-color: rgb(255, 255, 255, 0.2);
+}
+
+.inputSubmit {
+    background-color: rgb(214, 211, 211, 0.7);
+    width: 400px;
+}
+
+textarea {
+    background-color:  rgb(214, 211, 211, 0.5);
+    border-color: rgb(255, 255, 255, 0.2);
+    margin-top: 8px;
+    margin-bottom: 2px;
+    width: 400px;
+    height: 250px;
+}
+
+label {
+    color: rgb(114, 115, 116);
+}
+
+
+/* SEDES MAIN */
+
+.gridSEDES{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+}
+
+
+.sedesINFO{
+padding: 50px;
+}
+
+/* INICIO MAIN*/
+
+.container{
+    display: grid;
+}
+
+.container .escuela {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.container .horarios{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.container .horas{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.container .aranceles{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.container ul{
+    padding-left: 0%;
+}
+
+.container .aranceles-2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.container .aranceles-3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.container .aranceles-4{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.mainNOSOTROS{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    font-weight: 600;
+}
+
+/*bt navbar*/
+
+.navbar-flex{
+    flex-direction: column;
+}
