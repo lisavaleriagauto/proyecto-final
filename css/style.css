@@ -138,7 +138,7 @@ ul {
     width: 500px;
 }
 
-.navbar {
+.navbar-css {
     display: flex;
     font-size: 23px;
     margin-top: 20px;
@@ -146,12 +146,12 @@ ul {
 
 }
 
-.navbar li {
+.navbar-css li {
     margin-top: 15px;
     margin-right: 30px;
 }
 
-.navbar a {
+.navbar-css a {
     text-decoration: none;
     color:rgb(173, 215, 241);
 }
@@ -262,4 +262,18 @@ padding: 50px;
 
 .navbar-flex{
     flex-direction: column;
+} 
+
+/*productos main*/
+
+.conteiner-prod{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1024px) {
+    .body-body {
+        grid-template-columns: 1fr;
+    }
 }
