@@ -1,8 +1,537 @@
-/* reset */
+/* RESET */
 * {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(36, 36, 82);
+}
+
+/* INDEX */
+body {
+  /* HEADER */
+  /* MAIN */
+  /* FOOTER */
+}
+body header h1 {
+  color: rgb(164, 204, 228);
+  text-align: center;
+  font-size: 55px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header h2 {
+  color: rgb(166, 206, 231);
+  text-align: center;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header nav {
+  background-image: radial-gradient(circle, rgb(36, 36, 82), rgb(49, 49, 107));
+}
+body header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+body header nav ul :hover {
+  transition: 1s;
+  color: rgb(181, 158, 226);
+  text-decoration: none;
+}
+body header nav ul .navbar-css {
+  display: flex;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body header nav ul li {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: rgb(173, 215, 241);
+}
+body main {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+body main .container {
+  display: grid;
+}
+body main .container .cuadro {
+  width: 1300px;
+  border: 30px solid;
+  padding: 20px;
+  margin-left: 100px;
+  color: rgba(174, 214, 239, 0.5);
+  background: linear-gradient(rgba(255, 255, 255, 0.5)), center/cover;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(57, 172, 249, 0.427);
+  align-self: center;
+}
+body main .container .cuadro .escuela {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+body main .container .cuadro .texto {
+  font-weight: 600;
+}
+body main .container .cuadro .horarios {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+body main .container .cuadro .horas {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+body main .container .cuadro .aranceles {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+body main .container .cuadro ul {
+  padding-left: 0%;
+}
+body main .container .cuadro .aranceles-2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+body main .container .cuadro .aranceles-3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+body main .container .cuadro .aranceles-4 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+body main .container .cuadro h3 {
+  color: rgb(171, 214, 241);
+  margin-left: 15px;
+  font-size: 25px;
+}
+body footer .margenFooter {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+body footer .margenFooter div a .margenIG {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+body footer .margenFooter div a .margenFB {
+  position: absolute;
+  margin-left: 1200px;
+  margin-right: auto;
+  width: 20px;
+  height: auto;
+}
+
+/* NOSOTROS */
+body {
+  /* HEADER */
+  /* MAIN */
+  /* FOOTER */
+}
+body header h1 {
+  color: rgb(164, 204, 228);
+  text-align: center;
+  font-size: 55px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header h2 {
+  color: rgb(166, 206, 231);
+  text-align: center;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header nav {
+  background-image: radial-gradient(circle, rgb(36, 36, 82), rgb(49, 49, 107));
+}
+body header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+body header nav ul :hover {
+  transition: 1s;
+  color: rgb(181, 158, 226);
+  text-decoration: none;
+}
+body header nav ul .navbar-css {
+  display: flex;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body header nav ul li {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: rgb(173, 215, 241);
+}
+body main {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+body main .mainNOSOTROS {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+body main .mainGRID {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+}
+body main .mainGRID h3 {
+  color: rgb(171, 214, 241);
+  margin-left: 15px;
+  font-size: 25px;
+}
+body main .mainGRID .bienvenido-a-aqua {
+  justify-self: center;
+  font-size: 33px;
+}
+body main .mainGRID .p-estilo {
+  color: rgb(159, 206, 235);
+  font-size: 18px;
+  margin-left: 58px;
+}
+body main .mainGRID h4 {
+  color: rgb(159, 206, 235);
+  font-size: 18px;
+  margin-left: 58px;
+}
+body main .mainGRID .compromiso {
+  justify-self: center;
+  font-size: 29px;
+}
+body main .mainGRID ul {
+  list-style-type: none;
+}
+body main .mainGRID ul .cuadro {
+  width: 1300px;
+  border: 30px;
+  padding: 20px;
+  margin-left: 100px;
+  color: rgba(174, 214, 239, 0.5);
+  background: linear-gradient(rgba(255, 255, 255, 0.5)), center/cover;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(57, 172, 249, 0.427);
+  align-self: center;
+}
+body main .mainGRID ul .descripcion {
+  color: rgb(134, 180, 208);
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 18px;
+  padding: 10px;
+}
+body main .mainGRID ul .descripcion li div .font {
+  font-weight: 600;
+}
+body footer .margenFooter {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+body footer .margenFooter div a .margenIG {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+body footer .margenFooter div a .margenFB {
+  position: absolute;
+  margin-left: 1200px;
+  margin-right: auto;
+  width: 20px;
+  height: auto;
+}
+
+/* SEDES */
+body {
+  /* HEADER */
+  /* MAIN */
+  /* FOOTER */
+}
+body header h1 {
+  color: rgb(164, 204, 228);
+  text-align: center;
+  font-size: 55px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header h2 {
+  color: rgb(166, 206, 231);
+  text-align: center;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header nav {
+  background-image: radial-gradient(circle, rgb(36, 36, 82), rgb(49, 49, 107));
+}
+body header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+body header nav ul :hover {
+  transition: 1s;
+  color: rgb(181, 158, 226);
+  text-decoration: none;
+}
+body header nav ul .navbar-css {
+  display: flex;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body header nav ul li {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: rgb(173, 215, 241);
+}
+body main {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+body main h3 {
+  color: rgb(171, 214, 241);
+  margin-left: 15px;
+  font-size: 25px;
+}
+body main .gridSEDES {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+}
+body main .gridSEDES .sedesINFO {
+  padding: 50px;
+}
+body main .iframeMAPS {
+  margin-left: 40px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+body footer .margenFooter {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+body footer .margenFooter div a .margenIG {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+body footer .margenFooter div a .margenFB {
+  position: absolute;
+  margin-left: 1200px;
+  margin-right: auto;
+  width: 20px;
+  height: auto;
+}
+
+/* PRODUCTOS */
+body {
+  /* HEADER */
+  /* MAIN */
+  /* FOOTER */
+}
+body header h1 {
+  color: rgb(164, 204, 228);
+  text-align: center;
+  font-size: 55px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header h2 {
+  color: rgb(166, 206, 231);
+  text-align: center;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header nav {
+  background-image: radial-gradient(circle, rgb(36, 36, 82), rgb(49, 49, 107));
+}
+body header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+body header nav ul :hover {
+  transition: 1s;
+  color: rgb(181, 158, 226);
+  text-decoration: none;
+}
+body header nav ul .navbar-css {
+  display: flex;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body header nav ul li {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: rgb(173, 215, 241);
+}
+body main {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+body main h3 {
+  color: rgb(171, 214, 241);
+  margin-left: 15px;
+  font-size: 25px;
+}
+body main .conteiner-prod {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+body main .conteiner-prod .uniformes {
+  margin-left: 41px;
+  font-size: 18px;
+}
+body footer .margenFooter {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+body footer .margenFooter div a .margenIG {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+body footer .margenFooter div a .margenFB {
+  position: absolute;
+  margin-left: 1200px;
+  margin-right: auto;
+  width: 20px;
+  height: auto;
+}
+
+/* CONTACTO */
+body {
+  /* HEADER*/
+  /* MAIN */
+  /* FOOTER */
+}
+body header h1 {
+  color: rgb(164, 204, 228);
+  text-align: center;
+  font-size: 55px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header h2 {
+  color: rgb(166, 206, 231);
+  text-align: center;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+}
+body header nav {
+  background-image: radial-gradient(circle, rgb(36, 36, 82), rgb(49, 49, 107));
+}
+body header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+body header nav ul :hover {
+  transition: 1s;
+  color: rgb(181, 158, 226);
+  text-decoration: none;
+}
+body header nav ul .navbar-css {
+  display: flex;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body header nav ul li {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: rgb(173, 215, 241);
+}
+body main {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+body main section h3 {
+  color: rgb(171, 214, 241);
+  margin-left: 15px;
+  font-size: 25px;
+}
+body footer .margenFooter {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+body footer .margenFooter div a .margenIG {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+body footer .margenFooter div a .margenFB {
+  position: absolute;
+  margin-left: 1200px;
+  margin-right: auto;
+  width: 20px;
+  height: auto;
+}
+
+/* RESPONSIVE */
+/* mq mobile */
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 0.5fr;
+    grid-template-rows: 0.5fr;
+  }
+  .conteiner-prod {
+    grid-template-columns: 1fr;
+  }
+  .gridSEDES {
+    grid-template-columns: 1fr;
+  }
+  .mainNOSOTROS {
+    grid-template-columns: 0.5fr;
+    grid-template-rows: 0.5fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+@mixin estilos{
+    h1 {
+        color: rgb(164, 204, 228);
+        text-align: center;
+        font-size: 55px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+    }
+
+    h2 {
+        color: rgb(166, 206, 231);
+        text-align: center;
+        font-size: 17px;
+        margin-top: 0px;
+        padding-bottom: 10px;
+        background-image: radial-gradient(circle, rgb(44, 44, 99), rgb(36, 36, 82));
+    }
+}
+
+@mixin hover{
+:hover{
+    transition: 1s;
+    color: rgb(181, 158, 226);
+    text-decoration: none;
+}
+}

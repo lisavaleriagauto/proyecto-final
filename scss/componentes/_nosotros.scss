@@ -1,0 +1,156 @@
+body {
+
+    @import "../base/mixin";
+    @import "../base/fondo";
+
+    /* HEADER */
+
+    header {
+
+        @include estilos;
+
+        nav {
+
+            @include fondo;
+
+            ul {
+                @include hover;
+                list-style-type: none;
+                display: flex;
+
+                .navbar-css {
+                    display: flex;
+                    font-size: 23px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+
+                }
+
+                li {
+                    margin-top: 15px;
+                    margin-right: 30px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color:rgb(173, 215, 241);
+                }
+            }
+        }
+    }
+
+    /* MAIN */
+
+    main {
+        margin-top: 30px;
+        margin-bottom: 40px;
+
+        .mainNOSOTROS {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mainGRID {
+            display: grid;
+            justify-content: center;
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: repeat(1, 1fr);
+
+            h3 {
+                color: rgb(171, 214, 241);
+                margin-left: 15px;
+                font-size: 25px;
+            }
+
+            .bienvenido-a-aqua {
+                justify-self: center;
+                font-size: 33px;
+            }
+
+            .p-estilo {
+                color: rgb(159, 206, 235);
+                font-size: 18px;
+                margin-left: 58px;
+            }
+
+            h4 {
+                color: rgb(159, 206, 235);
+                font-size: 18px;
+                margin-left: 58px;
+            }
+
+            .compromiso {
+                justify-self: center;
+                font-size: 29px;
+            }
+
+            ul {
+
+                list-style-type: none;
+
+                .cuadro {
+                    width: 1300px;
+                    border: 30px;
+                    padding: 20px;
+                    margin-left: 100px;
+                    color: rgb(174, 214, 239, 0.5);
+                    background: linear-gradient(rgba(255, 255, 255, 0.5)), center/cover;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px rgba(57, 172, 249, 0.427);
+                    align-self: center;
+                }
+
+                .descripcion {
+                    color: rgb(134, 180, 208);
+                    margin-left: 16px;
+                    margin-right: 16px;
+                    font-size: 18px;
+                    padding: 10px;
+
+                    li {
+
+                        div {
+                            .font {
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* FOOTER */
+
+    footer {
+
+        .margenFooter {
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 100px;
+
+            div {
+                a {
+                    .margenIG {
+                        position: absolute;
+                        width: 20px;
+                        height: 20px;
+                        margin-left: 100px;
+                        margin-right: auto
+                    }
+
+                    .margenFB {
+                        position: absolute;
+                        margin-left: 1200px;
+                        margin-right: auto;
+                        width: 20px;
+                        height: auto
+                    }
+                }
+            }
+        }
+    }
+
+}
