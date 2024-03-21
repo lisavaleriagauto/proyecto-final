@@ -2,6 +2,7 @@ body {
 
     @import "../base/mixin";
     @import "../base/fondo";
+    @import "../base/variables";
 
     /* HEADER */
 
@@ -33,7 +34,7 @@ body {
 
                 a {
                     text-decoration: none;
-                    color: rgb(173, 215, 241);
+                    color: $colorHeader;
                 }
             }
         }
@@ -44,75 +45,73 @@ body {
     main {
         margin-top: 30px;
         margin-bottom: 40px;
-
+    
         .container {
             display: grid;
-
+    
             .cuadro {
                 width: 1300px;
                 border: 30px solid;
                 padding: 20px;
                 margin-left: 100px;
-                color: rgb(174, 214, 239, 0.5);
+                color: $colorCuadro;
                 background: linear-gradient(rgba(255, 255, 255, 0.5)), center/cover;
                 border-radius: 10px;
-                box-shadow: 0 0 20px rgba(57, 172, 249, 0.427);
+                box-shadow: 0 0 20px $colorBox;
                 align-self: center;
-
+    
                 .escuela {
                     grid-column-start: 1;
                     grid-column-end: 1;
                 }
-
+    
                 .texto {
                     font-weight: 600;
                 }
-
+    
                 .horarios {
                     grid-column-start: 2;
                     grid-column-end: 2;
                 }
-
+    
                 .horas {
                     grid-column-start: 3;
                     grid-column-end: 3;
                 }
-
+    
                 .aranceles {
                     grid-column-start: 2;
                     grid-column-end: 2;
                 }
-
+    
                 ul {
                     padding-left: 0%;
                 }
-
+    
                 .aranceles-2 {
                     grid-column-start: 2;
                     grid-column-end: 2;
                 }
-
+    
                 .aranceles-3 {
                     grid-column-start: 2;
                     grid-column-end: 2;
                 }
-
+    
                 .aranceles-4 {
                     grid-column-start: 2;
                     grid-column-end: 2;
                 }
-
-
+    
                 h3 {
-                    color: rgb(171, 214, 241);
+                    color: $colorH3;
                     margin-left: 15px;
                     font-size: 25px;
                 }
             }
         }
-
-
     }
+    
 
 
     /* FOOTER */
@@ -131,7 +130,7 @@ body {
                         width: 20px;
                         height: 20px;
                         margin-left: 100px;
-                        margin-right: auto
+                        margin-right: auto;
                     }
 
                     .margenFB {
@@ -139,7 +138,7 @@ body {
                         margin-left: 1200px;
                         margin-right: auto;
                         width: 20px;
-                        height: auto
+                        height: auto;
                     }
                 }
             }

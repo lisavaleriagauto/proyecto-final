@@ -2,6 +2,7 @@ body {
 
     @import "../base/mixin";
     @import "../base/fondo";
+    @import "../base/variables";
 
     /* HEADER*/
 
@@ -17,9 +18,7 @@ body {
 
                 @include hover;
                 list-style-type: none;
-                display: flex;
-
-
+                display: flex;  
                 .navbar-css {
                     display: flex;
                     font-size: 23px;
@@ -49,7 +48,7 @@ body {
 
         section {
             h3 {
-                color: rgb(171, 214, 241);
+                color: $colorH3;
                 margin-left: 15px;
                 font-size: 25px;
             }
@@ -71,7 +70,7 @@ body {
                         width: 20px;
                         height: 20px;
                         margin-left: 100px;
-                        margin-right: auto
+                        margin-right: auto;
                     }
 
                     .margenFB {
@@ -79,7 +78,7 @@ body {
                         margin-left: 1200px;
                         margin-right: auto;
                         width: 20px;
-                        height: auto
+                        height: auto;
                     }
                 }
             }
